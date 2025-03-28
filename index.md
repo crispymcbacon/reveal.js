@@ -74,11 +74,9 @@ Master’s Degree in Data Science & Scientific Computing
 
 ---
 
-<!-- <video
-data-autoplay
-src="img/com.mov"> </video> -->
-
 ## ![](img/com.gif "Animation")
+
+---
 
 # Key Results
 
