@@ -33,7 +33,7 @@ Master’s Degree in Data Science & Scientific Computing
   <div style="flex: 1;">
 
 - **Tooth Segmentation:**
-  - **Tool:** Mask R-CNN (ResNet-50 + FPN) detects individual teeth and extracts centroids.
+  - **Tool:** Mask R-CNN (ResNet-50 + FPN) detects individual teeth.
 - **Landmark Detection:**
   - **Automated:** Centroids are computed automatically.
   - **Manual:** Apex and base points are annotated due to current detection limits.
