@@ -1,6 +1,6 @@
 Master’s Degree in Data Science & Scientific Computing
 
-## AI-Driven Dental Model Evolution
+## AI-Driven Dental Model Evolution: Updating 3D Representations Through Sequential 2D Image Analysis
 
 **Candidate:** Agustin Campagnolo  
 **Supervisors:** Prof. Fabio Anselmi, Prof. Luca Manzoni
