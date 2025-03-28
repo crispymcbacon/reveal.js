@@ -37,6 +37,8 @@ Master’s Degree in Data Science & Scientific Computing
 - **Landmark Detection:**
   - **Automated:** Centroids are computed automatically.
   - **Manual:** Apex and base points are annotated due to current detection limits.
+- **Tooth Numbering**
+  - FDI notation using K-Means clustering and regression.
   </div>
     <div style="flex: 1; text-align: right;">
 
@@ -67,18 +69,16 @@ Master’s Degree in Data Science & Scientific Computing
 
 ![](img/rec.gif "Animation")
 
-
-
   </div>
 </div>
 
 ---
+
 <!-- <video
 data-autoplay
 src="img/com.mov"> </video> -->
 
-![](img/com.gif "Animation")
----
+## ![](img/com.gif "Animation")
 
 # Key Results
 
