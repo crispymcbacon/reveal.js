@@ -78,6 +78,24 @@ Master’s Degree in Data Science & Scientific Computing
 
 ---
 
+### Minimizing Reprojection Error
+
+- **Cost Function (Non-linear Least Squares):**
+
+  $$
+  E(\{\mathbf{X}\_k\}, \{\Delta\boldsymbol{\theta}\_v\}, \{\Delta\mathbf{t}\_v\}, \alpha) = \sum\_{v,k} w_k \|\mathbf{r}\_{v,k}\|^2  + E\_{\text{constraints}}
+  $$
+
+- **Variables:**
+  - $\{\mathbf{X}\_k\}$: 3D landmark coordinates.
+  - $\{\Delta\boldsymbol{\theta}\_v\}$: Camera rotation updates (axis-angle representation).
+  - $\{\Delta\mathbf{t}\_v\}$: Camera translation updates.
+  - $\alpha$: Global scale factor.
+- **Weights:** $w\_k$ (higher for centroids, lower for apex/base).
+- **Constraints:** $E\_{\text{constraints}}$ (inter-tooth distances). (Implemented as penalty terms in the cost function).
+
+---
+
 # Key Results
 
 <div style="display: flex; align-items: center;">
